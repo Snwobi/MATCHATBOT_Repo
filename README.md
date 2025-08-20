@@ -5,7 +5,7 @@
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.21+-yellow.svg)](https://huggingface.co/transformers)
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
-## 🏆 Award-Winning Research Project
+## 🏆 Distinction Research Project
 
 **First-of-its-kind AI chatbot specifically designed for Medication-Assisted Treatment (MAT) professionals in Scotland's healthcare system.**
 
@@ -15,7 +15,7 @@
 
 ## 🌟 Key Achievements & Innovation
 
-### 🥇 **World-First Implementation**
+### 🥇 ** Novel Implementation**
 - **First specialized chatbot** designed specifically for MAT professionals globally
 - **Novel integration** of LLM+Knowledge Graph+RAG for healthcare applications
 - **Scottish healthcare context-specific** adaptation addressing real-world clinical needs
