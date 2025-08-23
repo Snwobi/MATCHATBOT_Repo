@@ -208,7 +208,7 @@ MODEL_NAME = "meta-llama/Llama-2-7b-chat-hf"
 ## 👨‍💼 About the Author
 
 **Sandra Chisom Nwobi**  
-*Healthcare AI Researcher & Software Engineer*
+*Healthcare AI Researcher & Data and Analytics Scientist*
 
 - 🎓 **Education**: University of Gloucestershire
 - 🔬 **Research Focus**: Healthcare AI, Knowledge Graphs, Clinical Decision Support
@@ -243,7 +243,7 @@ We welcome contributions from healthcare professionals, AI researchers, and soft
 - **Supervisors**: Dr. Zainab Loukil, Abbas Jawahar
 - **Institution**: University of Gloucestershire
 - **Data Sources**: Public Health Scotland, Healthcare Improvement Scotland
-- **Healthcare Partners**: Scottish MAT Implementation Teams
+- **Healthcare Partners**: MIST (MAT Standards Implementation Support Team)
 
 ---
 

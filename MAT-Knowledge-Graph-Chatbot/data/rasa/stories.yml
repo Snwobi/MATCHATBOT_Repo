@@ -1,0 +1,55 @@
+version: "3.1"
+
+stories:
+- story: User asks about MAT
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_mat
+  - action: action_respond_with_rag_and_kg
+
+- story: User asks about specific MAT standard
+  steps:
+  - intent: ask_mat_standard
+  - action: action_respond_with_rag_and_kg
+
+- story: User asks about implementation
+  steps:
+  - intent: ask_implementation
+  - action: action_respond_with_rag_and_kg
+
+- story: User asks about organizations
+  steps:
+  - intent: ask_organizations
+  - action: action_respond_with_rag_and_kg
+
+- story: Simple greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Out of scope question
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: System status check
+  steps:
+  - intent: system_status
+  - action: action_provide_system_info
+
+- story: Conversation with follow-up
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_mat
+  - action: action_respond_with_rag_and_kg
+  - intent: ask_mat_standard
+  - action: action_respond_with_rag_and_kg
+  - intent: goodbye
+  - action: utter_goodbye

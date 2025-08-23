@@ -1,0 +1,50 @@
+version: "3.1"
+
+intents:
+  - ask_about_mat
+  - ask_mat_standard
+  - ask_implementation
+  - ask_organizations
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - out_of_scope
+  - system_status
+
+entities:
+  - mat_standard_number
+  - organization_name
+
+slots:
+  mat_standard_number:
+    type: text
+    influence_conversation: false
+  organization_name:
+    type: text
+    influence_conversation: false
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm the MAT Knowledge Assistant. How can I help you with Medication-Assisted Treatment standards today?"
+    - text: "Hi there! Ask me anything about MAT standards and I'll do my best to help."
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to ask me about MAT standards anytime."
+    - text: "Take care! Remember, I'm here whenever you need information about MAT."
+
+  utter_default:
+    - text: "I'm not sure I understand. Could you please rephrase your question about MAT standards?"
+    - text: "I didn't quite get that. Try asking about MAT standards, implementation, or related organizations."
+
+  utter_out_of_scope:
+    - text: "I'm specialized in MAT (Medication-Assisted Treatment) topics. Could you ask something related to MAT standards?"
+
+actions:
+  - action_respond_with_rag_and_kg
+  - action_provide_system_info
+  - action_default_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

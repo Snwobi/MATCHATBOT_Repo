@@ -1,0 +1,103 @@
+version: "3.1"
+
+nlu:
+- intent: ask_about_mat
+  examples: |
+    - What are the MAT standards?
+    - Tell me about MAT
+    - Explain Medication-Assisted Treatment
+    - What is MAT?
+    - Give me information about MAT standards
+    - How do MAT standards work?
+    - What are medication-assisted treatment standards?
+
+- intent: ask_mat_standard
+  examples: |
+    - Tell me about MAT Standard [1](mat_standard_number)
+    - What is MAT Standard [4](mat_standard_number)?
+    - Explain Standard [2](mat_standard_number)
+    - Give me details on MAT Standard [3](mat_standard_number)
+    - Describe MAT Standard [5](mat_standard_number)
+    - What does Standard [6](mat_standard_number) involve?
+    - Information about MAT Standard [7](mat_standard_number)
+    - Overview of Standard [8](mat_standard_number)
+    - MAT Standard [9](mat_standard_number) details
+    - What is included in Standard [10](mat_standard_number)?
+
+- intent: ask_implementation
+  examples: |
+    - How are MAT standards implemented?
+    - What is the implementation process?
+    - How do organizations implement MAT?
+    - Tell me about MAT implementation
+    - What does implementation involve?
+    - How to implement MAT standards?
+    - Implementation guidelines for MAT
+
+- intent: ask_organizations
+  examples: |
+    - Which organizations support MAT?
+    - Who implements MAT standards?
+    - What organizations are involved in MAT?
+    - Tell me about MAT organizations
+    - Who provides MAT services?
+    - Which agencies support MAT implementation?
+
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+    - Good morning
+    - Good afternoon
+    - Good evening
+    - Hi there
+    - Hey there
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - Talk to you later
+    - Have a nice day
+    - Thanks, bye
+    - Goodbye for now
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Yeah
+    - That's right
+    - Correct
+    - Exactly
+    - Sure
+    - Of course
+    - That's correct
+
+- intent: deny
+  examples: |
+    - No
+    - Nope
+    - That's wrong
+    - Incorrect
+    - Not really
+    - I don't think so
+
+- intent: out_of_scope
+  examples: |
+    - What's the weather like?
+    - Tell me a joke
+    - How do I cook pasta?
+    - What's your favorite movie?
+    - Can you help me with my homework?
+    - What time is it?
+
+- intent: system_status
+  examples: |
+    - System status
+    - How are you doing?
+    - Are you working properly?
+    - Check system
+    - Status check
+    - Is everything working?
